@@ -1,5 +1,7 @@
 module ReferenceTraits
 
-greet() = print("Hello World!")
+refs(v::AbstractArray) = v
+
+pool(v::AbstractArray) = nothing
 
 end # module
